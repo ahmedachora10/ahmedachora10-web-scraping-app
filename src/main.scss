@@ -1,5 +1,7 @@
-// @import "~bootstrap/";
 
-body {
-    background-color: #d25;
-}
+@import "scss/var";
+@import "scss/reset";
+@import "scss/bootstrap";
+@import "scss/font_awesome";
+
+@import "scss/pages/dashboard";

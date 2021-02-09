@@ -30,6 +30,15 @@ module.exports = merge(common, {
         use: [
           'pug-loader'
         ]
+      },
+      {
+        test: /\.(svg|ttf|eot|woff|woff2)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            outputPath: "fonts",
+          },
+        }
       }
     ]
   }
