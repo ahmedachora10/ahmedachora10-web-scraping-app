@@ -1,5 +1,5 @@
 import "./main.scss";
-import JobsApi from './service/JobsApi.service';
+import JobsApi from './service/JobsApi.services';
 
 /*
 const url = 'https://raw.githubusercontent.com/ahmedachora10/web-scraping/main/data/keywords.json';
